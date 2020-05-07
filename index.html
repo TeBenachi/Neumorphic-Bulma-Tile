@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphic UI </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <style>
+        body {
+            background-color: #22d0b2;
+            height: 100vh;
+        }
+
+        .box {
+            box-shadow:
+                12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+                -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="section">
+            <div class="container">
+                <h1 class="title has-text-white has-text-centered">
+                    Neumorphic UI using Bulma CSS framework
+                </h1>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="tile is-ancestor">
+                <div class="tile is-4 is-vertical is-parent">
+                    <div class="tile is-child box notification is-primary">
+                        <p class="title">
+                            One
+                        </p>
+                    </div>
+                    <div class="tile is-child box notification is-primary">
+                        <p class="title">
+                            Two
+                        </p>
+                    </div>
+                </div>
+
+                <div class="tile is-parent">
+                    <div class="tile is-child box notification is-primary">
+                        <p class="title">Three</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
